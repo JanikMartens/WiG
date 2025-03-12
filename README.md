@@ -1,6 +1,8 @@
 
 This is for all people who kept getting annoyed because you could'nt get the exact package name for the winget install command. This allows you to search for packages and install it.
 
+Either Run the scipts or the Pyinstaller Exe. Putting the exe in your path makes life a lot easier
+
 # Wig.py
 
 ## Overview
