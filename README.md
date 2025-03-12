@@ -25,7 +25,7 @@ pip install msgpack fuzzywuzzy
 1. **Prepare the data files:** Ensure `package_data.msgpack` and `index.msgpack` exist in the script directory.
 2. **Run the script:**
    ```sh
-   python script.py
+   python wig.py
    ```
 3. **Search for packages:** Enter search terms when prompted.
 4. **Select a package to install:** Enter the corresponding number to install a package.
@@ -33,10 +33,11 @@ pip install msgpack fuzzywuzzy
 6. **Exit:** Type `q` or `quit` at any prompt to exit.
 
 ## File Structure
-- `script.py` - Main script file.
+- `wig.py` - Main script file.
 - `package_data.msgpack` - Contains package metadata.
 - `index.msgpack` - Contains searchable package data.
-
+- - `zip_processor.py` - Contains searchable package datacreates a searchable index from available winget packages.
+  
 ## Example Usage
 ```
 Enter search terms (or 'quit' to exit): vscode
