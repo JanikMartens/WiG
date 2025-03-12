@@ -1,4 +1,5 @@
 
+This is for all people who kept getting annoyed because you could'nt get the exact package name for the winget install command. This allows you to search for packages and install it.
 
 This script provides an interactive command-line interface for searching and installing Windows packages using `winget`. It leverages fuzzy searching to match user queries against a pre-built package index stored in MessagePack files.
 
@@ -53,6 +54,8 @@ Install Microsoft.VisualStudioCode? (y/n): y
 Installing: Microsoft.VisualStudioCode in a new terminal window...
 ✅ Installation of Microsoft.VisualStudioCode started in a new window.
 ```
+## Pyinstaller exe
+- YoU can use pyinstaller to create an exe and put it @ PATH for easier installs
 
 ## Notes
 - The `.Portable` suffix in package identifiers is automatically removed before installation.
